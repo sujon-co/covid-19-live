@@ -1,0 +1,25 @@
+body{
+    background: #F5F5F5;
+    overflow-x: hidden;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img{
+    width: 320px;
+    margin-top: 50px;
+}
+
+@media(max-width: 770px){
+    .container1{
+        margin: 0 10%;
+    }
+    .img{
+        width: 70%;
+        
+
+    }
+}
